@@ -64,11 +64,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        jharkhand: {
-          saffron: "hsl(var(--jharkhand-saffron))",
-          green: "hsl(var(--jharkhand-green))",
-          blue: "hsl(var(--jharkhand-blue))",
-          navy: "hsl(var(--jharkhand-navy))",
+        india: {
+          saffron: "hsl(var(--india-saffron))",
+          green: "hsl(var(--india-green))",
+          blue: "hsl(var(--india-blue))",
+          navy: "hsl(var(--india-navy))",
         },
       },
       backgroundImage: {

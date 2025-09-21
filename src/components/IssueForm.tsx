@@ -29,7 +29,7 @@ export const IssueForm = ({ selectedDepartment, uploadedImages, onSubmit }: Issu
       images: uploadedImages,
       timestamp: new Date().toISOString(),
       status: "submitted",
-      id: `JH${Date.now().toString().slice(-6)}`
+      id: `IN${Date.now().toString().slice(-6)}`
     };
     
     onSubmit(issueData);

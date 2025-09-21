@@ -4,15 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Jharkhand Government Design System */
+/* India National Design System */
 
 @layer base {
   :root {
-    /* Jharkhand Official Colors */
-    --jharkhand-saffron: 25 100% 60%; /* #FF9933 */
-    --jharkhand-green: 127 94% 29%; /* #138808 */
-    --jharkhand-blue: 240 100% 25%; /* #000080 */
-    --jharkhand-navy: 220 100% 20%; /* #002266 */
+    /* India National Colors */
+    --india-saffron: 25 100% 60%; /* #FF9933 */
+    --india-green: 120 100% 25%; /* #008000 */
+    --india-blue: 220 100% 50%; /* #0066FF */
+    --india-navy: 220 100% 20%; /* #003366 */
     
     /* Semantic Government Colors */
     --background: 0 0% 98%;
@@ -24,7 +24,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 220 13% 18%;
     
-    --primary: 25 100% 60%; /* Jharkhand Saffron */
+    --primary: 25 100% 60%; /* India Saffron */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 220 14% 96%;
@@ -33,10 +33,10 @@
     --muted: 220 14% 96%;
     --muted-foreground: 220 8.9% 46.1%;
     
-    --accent: 127 94% 29%; /* Jharkhand Green */
+    --accent: 120 100% 25%; /* India Green */
     --accent-foreground: 0 0% 100%;
     
-    --government: 240 100% 25%; /* Jharkhand Blue */
+    --government: 220 100% 50%; /* India Blue */
     --government-foreground: 0 0% 100%;
     
     --destructive: 0 84.2% 60.2%;
@@ -48,9 +48,9 @@
     
     --radius: 0.75rem;
     
-    /* Government Gradients */
+    /* India National Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-government: linear-gradient(135deg, hsl(var(--government)), hsl(var(--jharkhand-navy)));
+    --gradient-government: linear-gradient(135deg, hsl(var(--government)), hsl(var(--india-navy)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
     /* Government Shadows */

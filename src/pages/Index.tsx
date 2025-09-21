@@ -86,7 +86,7 @@ const Index = () => {
                   Report a Public Issue
                 </h1>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                  Help us improve Jharkhand by reporting issues in your area. 
+                  Help us improve India by reporting issues in your area. 
                   Our AI will help identify the problem and route it to the right department.
                 </p>
               </div>
@@ -118,13 +118,13 @@ const Index = () => {
             <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
               <FileText className="h-4 w-4 text-white" />
             </div>
-            <span className="font-semibold text-foreground">Jharkhand Seva Portal</span>
+            <span className="font-semibold text-foreground">India Seva Portal</span>
           </div>
           <p className="text-sm text-muted-foreground">
-            A digital initiative by Government of Jharkhand for transparent public service delivery
+            A digital initiative by Government of India for transparent public service delivery
           </p>
           <div className="flex justify-center space-x-4 mt-4 text-xs text-muted-foreground">
-            <span>© 2024 Government of Jharkhand</span>
+            <span>© 2024 Government of India</span>
             <span>•</span>
             <span>Privacy Policy</span>
             <span>•</span>

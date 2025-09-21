@@ -11,8 +11,8 @@ export const Header = () => {
               <Shield className="h-8 w-8" />
             </div>
             <div>
-              <h1 className="text-xl font-bold">Jharkhand Seva</h1>
-              <p className="text-sm text-white/80">Public Grievance Portal</p>
+              <h1 className="text-xl font-bold">India Seva</h1>
+              <p className="text-sm text-white/80">National Grievance Portal</p>
             </div>
           </div>
           
