@@ -8,55 +8,55 @@
 
 @layer base {
   :root {
-    /* India National Colors */
-    --india-saffron: 25 100% 60%; /* #FF9933 */
-    --india-green: 120 100% 25%; /* #008000 */
-    --india-blue: 220 100% 50%; /* #0066FF */
-    --india-navy: 220 100% 20%; /* #003366 */
+    /* Light Mode Colors - Orange + Green + White */
+    --india-saffron: 25 100% 55%; /* Orange */
+    --india-green: 120 60% 35%; /* Green */
+    --india-blue: 25 100% 55%; /* Orange for government */
+    --india-navy: 120 60% 25%; /* Darker Green */
     
-    /* Semantic Government Colors */
-    --background: 0 0% 98%;
-    --foreground: 220 13% 18%;
+    /* Light Mode Semantic Colors */
+    --background: 0 0% 100%; /* Pure White */
+    --foreground: 0 0% 20%; /* Dark text */
     
-    --card: 0 0% 100%;
-    --card-foreground: 220 13% 18%;
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 0 0% 20%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 220 13% 18%;
+    --popover-foreground: 0 0% 20%;
     
-    --primary: 25 100% 60%; /* India Saffron */
+    --primary: 25 100% 55%; /* Orange */
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 220 14% 96%;
-    --secondary-foreground: 220 13% 18%;
+    --secondary: 0 0% 96%; /* Light gray */
+    --secondary-foreground: 0 0% 20%;
     
-    --muted: 220 14% 96%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
     
-    --accent: 120 100% 25%; /* India Green */
+    --accent: 120 60% 35%; /* Green */
     --accent-foreground: 0 0% 100%;
     
-    --government: 220 100% 50%; /* India Blue */
+    --government: 25 100% 55%; /* Orange */
     --government-foreground: 0 0% 100%;
     
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
     
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 25 100% 60%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 25 100% 55%;
     
     --radius: 0.75rem;
     
-    /* India National Gradients */
+    /* Light Mode Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
     --gradient-government: linear-gradient(135deg, hsl(var(--government)), hsl(var(--india-navy)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
-    /* Government Shadows */
+    /* Light Mode Shadows */
     --shadow-government: 0 4px 12px hsl(var(--government) / 0.15);
-    --shadow-card: 0 2px 8px hsl(220 13% 18% / 0.08);
-    --shadow-elevated: 0 8px 24px hsl(220 13% 18% / 0.12);
+    --shadow-card: 0 2px 8px hsl(0 0% 20% / 0.08);
+    --shadow-elevated: 0 8px 24px hsl(0 0% 20% / 0.12);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -80,50 +80,56 @@
   }
 
   .dark {
-    /* Cream background for dark mode */
-    --background: 48 15% 88%; /* Cream color */
-    --foreground: 220 13% 18%; /* Dark text for good contrast */
+    /* Dark Mode - Cream background with Forest Green + Golden Yellow */
+    --background: 45 20% 85%; /* Cream background */
+    --foreground: 120 25% 15%; /* Dark forest green text */
 
-    --card: 48 20% 92%; /* Slightly lighter cream for cards */
-    --card-foreground: 220 13% 18%;
+    --card: 45 25% 88%; /* Lighter cream for cards */
+    --card-foreground: 120 25% 15%;
 
-    --popover: 48 20% 92%;
-    --popover-foreground: 220 13% 18%;
+    --popover: 45 25% 88%;
+    --popover-foreground: 120 25% 15%;
 
-    /* Keep India colors prominent in dark mode */
-    --primary: 25 100% 60%; /* India Saffron */
-    --primary-foreground: 0 0% 100%;
+    --primary: 50 95% 55%; /* Golden Yellow */
+    --primary-foreground: 120 25% 15%; /* Dark forest green text */
 
-    --secondary: 48 10% 82%; /* Muted cream */
-    --secondary-foreground: 220 13% 18%;
+    --secondary: 45 15% 78%; /* Muted cream */
+    --secondary-foreground: 120 25% 15%;
 
-    --muted: 48 10% 82%;
-    --muted-foreground: 220 8.9% 46.1%;
+    --muted: 45 15% 78%;
+    --muted-foreground: 120 20% 35%;
 
-    --accent: 120 100% 25%; /* India Green */
-    --accent-foreground: 0 0% 100%;
+    --accent: 120 60% 25%; /* Forest Green */
+    --accent-foreground: 45 20% 85%; /* Cream text */
 
-    --government: 220 100% 50%; /* India Blue */
-    --government-foreground: 0 0% 100%;
+    --government: 50 95% 55%; /* Golden Yellow */
+    --government-foreground: 120 25% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 45 20% 85%;
 
-    --border: 48 8% 78%; /* Subtle cream border */
-    --input: 48 8% 78%;
-    --ring: 25 100% 60%;
+    --border: 45 12% 72%; /* Subtle cream border */
+    --input: 45 12% 72%;
+    --ring: 50 95% 55%;
 
-    /* Update gradients for cream theme */
+    /* Dark Mode Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-government: linear-gradient(135deg, hsl(var(--government)), hsl(var(--accent)));
     --gradient-subtle: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     
-    --sidebar-background: 48 12% 85%;
-    --sidebar-foreground: 220 13% 18%;
-    --sidebar-primary: 25 100% 60%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 48 8% 80%;
-    --sidebar-accent-foreground: 220 13% 18%;
-    --sidebar-border: 48 8% 78%;
-    --sidebar-ring: 25 100% 60%;
+    /* Dark Mode Shadows */
+    --shadow-government: 0 4px 12px hsl(var(--government) / 0.15);
+    --shadow-card: 0 2px 8px hsl(120 25% 15% / 0.08);
+    --shadow-elevated: 0 8px 24px hsl(120 25% 15% / 0.12);
+    
+    --sidebar-background: 45 18% 80%;
+    --sidebar-foreground: 120 25% 15%;
+    --sidebar-primary: 50 95% 55%;
+    --sidebar-primary-foreground: 120 25% 15%;
+    --sidebar-accent: 45 12% 75%;
+    --sidebar-accent-foreground: 120 25% 15%;
+    --sidebar-border: 45 12% 72%;
+    --sidebar-ring: 50 95% 55%;
   }
 }
 
